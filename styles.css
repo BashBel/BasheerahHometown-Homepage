@@ -1,0 +1,146 @@
+body{
+  
+    font-family: "Playfair Display", serif;
+    font-weight: 400px;
+    text-shadow: 1px;
+    background-color:#151e9c;
+    
+    }
+  
+h1{
+    background-color: #3d5874;
+    margin: 5px;
+    padding:2px 4px 2px;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    }
+    
+p{
+    background-color: #495057;
+    margin: 5px;
+    padding:6px 8px 6px;
+    text-align: center;
+    width: 350px;
+    border-radius: 10px;}
+    
+h2{
+   color:#6c757d;
+   font-size: 16px;
+   text-align: center;
+   
+}
+#header{
+    background-image: url("images/megacity.jpg");
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 130px;
+    margin: 20px;
+    color: white;
+
+}
+#About-Lagos-section{
+    background: hsl(208, 7%, 46%);
+    color: black;
+    margin: 40px;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    text-align: center;
+
+}
+.Algs-title{
+   text-align: left;
+   width: 300px;
+   color: #151e9c;
+}   
+.Algs-dscr{
+    width: 90%;
+    text-align: left;
+    background: #f8f9fa;
+}
+#Lagos-views-section{
+ width: 50%; 
+ display: block;
+ flex-direction: column;
+ margin: auto;
+}
+.megacity{
+  width: 600px; 
+  margin:10px;
+  border-radius: 30px;
+  border: 4px solid #6c757d;
+}
+.beach{
+  width: 600px; 
+  margin:10px;
+  border-radius: 30px;
+  border: 4px solid #6c757d;
+ 
+}
+.hist-sites{
+   width:600px ;
+   margin:10px;
+   border-radius: 30px;
+   border: 4px solid #6c757d;
+}
+.culture{
+   width:600px ;
+   margin:10px;
+   border-radius: 30px;
+   border: 4px solid #6c757d;
+}
+.local-market{
+   width:600px ;
+   margin:10px;
+   border-radius: 30px;
+   border: 4px solid #6c757d;
+}
+#Places-to-visit{
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 0px 20px 30px;
+    font-size: 30px;
+    
+    }
+
+#footer{
+    background-color:#6c757d;
+    color: white;
+    width: 300px;
+    margin: 12px 8px;
+    padding: 2px 1px 3px 1px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 25px;
+    
+}
+.btn{
+    color: black;
+    border-radius: 6px;
+    padding: 4px 10px 6px 10px;
+    margin: 4px;
+    
+    
+}
+
+.Enquiries{
+ color: white;
+    font-size: 14px;
+    padding: 10px;
+    margin: 4px; 
+}
+.copyr{
+  color: #6c757d;
+    font-size: 20px;
+    padding: 0px;
+    margin: 4px;  
+    text-align: center;
+ }   
+
+    
+    
+    
+    
+    
+    
