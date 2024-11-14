@@ -59,13 +59,14 @@ h2{
     text-align: left;
     background: #f8f9fa;
 }
+
 #Lagos-views-section{
  width: 80%; 
- display: block;
+ display: flex;
  flex-direction: column;
  margin: auto;
 }
-.megacity{ 
+.megacity{
   margin:10px;
   border-radius: 30px;
   border: 4px solid #6c757d;
@@ -103,19 +104,20 @@ h2{
     background-color:#6c757d;
     color: white;
     width: 300px;
-    margin: 12px 8px;
+    margin: 12px;
     padding: 2px 1px 3px 1px;
     text-align: center;
     font-size: 25px;
-    border-radius: 25px;
+    border-radius: 20px;
     
 }
 .btn{
+    width: 50%;
     color: black;
-    border-radius: 6px;
+    border-radius: 12px;
     padding: 4px 10px 6px 10px;
     margin: 4px;
-   font-size: 25px;
+    font-size: 25px;
     
     
 }
@@ -133,10 +135,3 @@ h2{
     margin: 4px;  
     text-align: center;
  }   
-
-    
-    
-    
-    
-    
-    
