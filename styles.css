@@ -103,31 +103,25 @@ h2{
 #footer{
     background-color:#ff6d00;
     color: white;
-    width: 300px;
+    width: 400px;
     margin: 12px;
+    display: flex;
+    flex-direction: row;
     padding: 2px 1px 3px 1px;
-    text-align: center;
-    font-size: 25px;
-    border-radius: 20px;
+    font-size: 20px;
+    border-radius: 20px;  
     
 }
-.btn{
-    width: 50%;
-    color: black;
-    border-radius: 12px;
-    padding: 4px 10px 6px 10px;
-    margin: 4px;
-    font-size: 25px;  
-}
 
-.Enquiries{
+
+h4{
  color: white;
-    font-size: 14px;
+    font-size: 20px;
     padding: 10px;
     margin: 4px; 
 }
 .copyr{
-  color: white;
+  color: #ff6d00;
     font-size: 20px;
     padding: 0px;
     margin: 4px;  
