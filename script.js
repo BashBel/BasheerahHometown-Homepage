@@ -25,20 +25,20 @@ Visit_Lagos = ['Beaches', 'Local Markets', 'Historical Sites', 'Cultural Spots']
 
 
 document.getElementById('button1').addEventListener('click', (event) => {
-  let element_Visit_Lagos = document.getElementById('Visit_Lagos');
+  let element_list = document.getElementById('list');
   let new_li = document.createElement('li');
-  [].unshift(input_text);
+  Visit_Lagos.unshift(input_text);
   new_li.innerText = document.getElementById('nameInput').value;
 
-  element_Visit_Lagos.appendChild(new_li);
+  element_list.appendChild(new_li);
 
 });
 
 document.getElementById('button2').addEventListener('click', (event) => {
-  let element_Visit_Lagos2 = document.getElementById('Visit_Lagos');
+  let element_Visit_Lagos = document.getElementById('Visit_Lagos');
   let new_ul = document.createElement('ul');
   new_ul.innerText = randomMember(Visit_Lagos);
 
-  element_Visit_Lagos2.appendChild(new_ul);
+  element_Visit_Lagos.appendChild(new_ul);
 
 });
