@@ -1,4 +1,4 @@
-var Visit_Lagos, input_text;
+var Visit_Lagos;
 
 function convertToNumber(value) {
   // Convert a string value to a number if possible
@@ -27,8 +27,8 @@ Visit_Lagos = ['Beaches', 'Local Markets', 'Historical Sites', 'Cultural Spots']
 document.getElementById('button1').addEventListener('click', (event) => {
   let element_list = document.getElementById('list');
   let new_li = document.createElement('li');
-  Visit_Lagos.unshift(input_text);
   new_li.innerText = document.getElementById('nameInput').value;
+  Visit_Lagos.unshift(document.getElementById('nameInput').value);
 
   element_list.appendChild(new_li);
 
